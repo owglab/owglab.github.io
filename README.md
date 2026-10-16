@@ -9,3 +9,10 @@
 3. 发布后访问 `https://<github-username>.github.io/` 或绑定自定义域名。
 
 页面入口是 `index.html`，样式在 `styles.css`，首页视觉资产在 `assets/research-system.svg`。
+
+
+cd /home/ariel/genie_sim/owglab.github.io
+# 修改 index.html 或 styles.css
+git add .
+git commit -m "Update OWGlab website"
+git push owglab main
